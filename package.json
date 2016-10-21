@@ -1,0 +1,30 @@
+{
+  "name": "escape-regex",
+  "version": "0.0.1",
+  "description": "Simple utility function to escape user-entered strings for use in a regular expression matching",
+  "main": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "prepublish": "npm run test",
+    "test": "mocha",
+    "test-watch": "mocha --watch"
+  },
+  "keywords": [
+    "escape",
+    "regex",
+    "regular expression"
+  ],
+  "author": "Ken Carpenter",
+  "contributors": [
+    "Ken Carpenter <ken@mindjuice.net>"
+  ],
+  "license": "MIT",
+  "repository": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "dependencies": {}
+}
