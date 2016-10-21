@@ -1,5 +1,5 @@
 {
-  "name": "escape-regex",
+  "name": "escape-from-regex",
   "version": "0.0.1",
   "description": "Simple utility function to escape user-entered strings for use in a regular expression matching",
   "main": "./index.js",
