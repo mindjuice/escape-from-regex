@@ -1,4 +1,4 @@
-# escape-regex
+# escape-from-regex
 Simple utility function to escape user-entered strings for use in a regular expression matching.
 
 ## ES6 Example
