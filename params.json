@@ -1,0 +1,6 @@
+{
+  "name": "escape-from-regex",
+  "tagline": "Simple utility function to escape user-entered strings for use in a regular expression matching",
+  "body": "# escape-from-regex\r\nSimple utility function to escape user-entered strings for use in a regular expression matching.\r\n\r\n## ES6 Example\r\n```\r\nimport escapeRegex from 'escape-from-regex';\r\n\r\nconst result1 = escapeRegex('abc 123 !@#%_=');\r\nconsole.log(`result1 = ${result1}`);\r\n\r\nconst result2 = escapeRegex('-[]/{}()*+?.\\^$|');\r\nconsole.log(`result2 = ${result2}`);\r\n```\r\n\r\n## ES5 Example\r\n```\r\nvar escapeRegex = require('escape-from-regex');\r\n\r\nvar result1 = escapeRegex('abc 123 !@#%_=');\r\nconsole.log('result1 = ' + result1);\r\n\r\nvar result2 = escapeRegex('-[]/{}()*+?.\\^$|');\r\nconsole.log('result2 = ' + result2);\r\n```\r\n\r\n## License\r\nThis code is distributed under the MIT License: http://rem.mit-license.org\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
