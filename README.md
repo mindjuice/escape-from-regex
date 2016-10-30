@@ -1,5 +1,5 @@
 # escape-from-regex
-Simple utility function to escape user-entered strings for use in a regular expression matching.
+Simple utility function to escape user-entered strings for use in regular expression matching.
 
 ## ES6 Example
 ```
